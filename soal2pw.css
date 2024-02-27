@@ -1,0 +1,72 @@
+/* style.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://www.shutterstock.com/shutterstock/photos/592953593/display_1500/stock-vector-vector-illustration-of-horizontal-banner-with-binary-computer-code-in-dark-colors-with-random-592953593.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+header, nav, .main-content, footer {
+    width: 80%; /* Sesuaikan lebar elemen sesuai kebutuhan */
+    max-width: 800px; /* Sesuaikan lebar maksimum sesuai kebutuhan */
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan agar tidak terdistorsi */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.main-content {
+    color: #333;
+    padding: 50px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
